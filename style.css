@@ -1,0 +1,17 @@
+  h5{
+            color:blue;
+            background-color:azure;
+            font-size:20px;
+            font-weight:bolder;
+            font-style:oblique;
+            text-decoration: underline;
+            text-align: center;
+            text-decoration-color: rgb(101,42,165);
+            text-underline-offset: 10px;
+            border: red;
+            cursor: pointer;
+        }
+        p{
+            color: purple;
+        }
+        
