@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h3{
+            color: blue;
+            background-color: aquamarine;
+            font-size: 20px;
+            font-weight: bolder;
+            font-style: oblique;
+            text-decoration: underline;
+            text-align: center;
+            text-decoration-color: brown;
+            text-underline-offset: 10px;
+            border: red 2px dotted;
+            /* border-color:red;
+            border-width: 10px;
+            border-style: dashed; */
+            cursor: pointer;
+        }
+        p{
+            color: rgb(133, 133, 5);
+        }
+        img {
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading Tags -->
+     <h1 style="color: rgb(127, 60, 190);background-color: aliceblue";>Web Technologies</h1>
+     <h2>Web Technologies</h2>
+     <h3>Web Technologies</h3>
+     <h4>Web Technologies</h4>
+     <h5>Web Technologies</h5>
+     <h6>Web Technologies</h6>
+     <h7>Web Technologies</h7>
+     <img src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=" alt="Table Example">
+
+
+    <!-- Paragragh and dummy text -->
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cumque consequuntur expedita voluptatem praesentium magnam sit, 
+        minus sequi nisi, nesciunt consequatur? Sunt ducimus, quaerat excepturi architecto ratione non rem pariatur explicabo praesentium 
+        eligendi magni similique vero laborum autem officiis. Harum veniam dignissimos nihil molestiae sed amet odit fuga repellat!</p>
+
+
+        <!-- Bold -->
+        <b>HTML</b>
+        <strong>HTML</strong>
+        
+        <!-- Italics -->
+        <i>html</i>
+        <em>html</em>
+
+        <strike>ugfhtc</strike>
+
+        <u>css</u>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, asperiores?</p>
+
+        <h1>Programming Languages</h1>
+        <!-- ordered List -->
+        <ol>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+        </ol>
+        
+        <!-- unordered List -->
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+        </ul>
+
+        <table border="1">
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="4">Seminar</td>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8.00AM</td>
+                <td rowspan="2">5.00PM</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity:DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>8.00AM</td>
+                <td>11.00AM</td>
+                <td>XPath</td>
+            </tr>
+        </table>
+
+        <script>
+            var a=10, b=5;
+            console.log(a+b);
+            console.log(a-b);
+            console.log(a*b);
+            console.log(a/b);
+            console.log(a%b);
+        </script>
+
+;
+
+
+</body>
+</html>
